@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import NavLink from './NavLink/NavLink'
+import Logo from '../../../assets/images/logo.png'
 
 library.add(fab)
 
@@ -18,9 +19,12 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="white" light expand="md">
+            <div className="container">
             <NavbarBrand>
-                <Link to="/">Aquapark</Link>
+                <Link to="/">
+                    <img src={Logo} alt=""/>
+                </Link>
             </NavbarBrand>
             <Collapse navbar>
                 <Nav className="mx-auto" navbar>
@@ -65,7 +69,7 @@ export default class Header extends Component {
                     </NavItem>
                 </Nav>
             </Collapse>
-
+            </div>
         </Navbar>
       </div>
     )
