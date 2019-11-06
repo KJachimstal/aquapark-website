@@ -58,6 +58,11 @@ export default class Header extends Component {
                             <FontAwesomeIcon icon={['fab', 'youtube']} />
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink to="#">
+                            <FontAwesomeIcon icon={['fab', 'tripadvisor']} />
+                        </NavLink>
+                    </NavItem>
                 </Nav>
             </Collapse>
 
