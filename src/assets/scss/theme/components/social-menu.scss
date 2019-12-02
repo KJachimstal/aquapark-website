@@ -1,0 +1,13 @@
+.social-menu {
+  &__item {
+    a svg {
+      color: $gray-500;
+      transition-duration: 400ms;
+    }
+
+    a:hover svg {
+      color: $primary;
+      transform: scale(1.1);
+    }
+  }
+}
