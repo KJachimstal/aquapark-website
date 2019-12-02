@@ -39,28 +39,28 @@ const Header = () => (
                       <NavLink exact to="/o-nas">O nas</NavLink>
                   </NavItem>
               </Nav>
-              <Nav navbar>
-                  <NavItem>
+              <Nav navbar className="social-menu">
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'google']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'instagram']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'youtube']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'tripadvisor']} />
                       </NavLink>
