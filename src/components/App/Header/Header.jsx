@@ -23,17 +23,17 @@ const Header = () => (
             <img src={Logo} alt=""/>
           </NavbarBrand>
           <Collapse navbar>
-              <Nav className="mx-auto" navbar>
-                  <NavItem>
+              <Nav className="mx-auto menu" navbar>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/atrakcje">Atrakcje</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/cennik">Cennik</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/karnet">Karnet</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/o-nas">O nas</NavLink>
                   </NavItem>
               </Nav>

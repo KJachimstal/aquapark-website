@@ -1,0 +1,23 @@
+.menu {
+  &__item {
+    a {
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: 600;
+      letter-spacing: .07em;
+      padding: 7px 15px !important;
+      margin: 0 5px;
+      border-radius: 30px;
+      transition-duration: 400ms;
+
+      &:hover {
+        color: $primary !important;
+      }
+
+      &.active {
+        background-color: $primary;
+        color: $white !important;
+      }
+    }
+  }
+}
