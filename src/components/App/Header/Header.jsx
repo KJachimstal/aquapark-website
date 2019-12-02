@@ -19,10 +19,8 @@ const Header = () => (
   <div>
     <Navbar color="white" light expand="md">
         <div className="container">
-          <NavbarBrand>
-              <Link to="/">
-                  <img src={Logo} alt=""/>
-              </Link>
+          <NavbarBrand tag={Link} to="/">
+            <img src={Logo} alt=""/>
           </NavbarBrand>
           <Collapse navbar>
               <Nav className="mx-auto" navbar>
