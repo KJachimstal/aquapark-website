@@ -1,19 +1,17 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from '../Home/Home'
-import NotFound from '../NotFound/NotFound'
-import Header from './Header/Header'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from '../Home';
+import NotFound from '../NotFound';
+import Header from './Header';
 
-export default class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route component={NotFound} />
-        </Switch>
-      </Router>
-    )
-  }
-}
+const App = () => (
+  <Router>
+    <Header />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route component={NotFound} />
+    </Switch>
+  </Router>
+);
+
+export default App;
