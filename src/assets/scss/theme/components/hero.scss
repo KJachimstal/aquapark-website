@@ -2,7 +2,8 @@
   height: 70vmin;
   background-size: cover;
   position: relative;
-
+  background-position: center;
+  
   &__content {
     position: absolute;
     content: "";
@@ -11,5 +12,7 @@
     top: 0;
     left: 0;
     background-color: rgba($hero-background-color, .7);
+    box-sizing: border-box;
+    padding-top: 150px;
   }
 }

@@ -4,16 +4,18 @@
       position: relative;
       text-transform: uppercase;
       font-size: 0.9em;
-      font-weight: 600;
-      letter-spacing: .07em;
+      font-weight: 400;
+      letter-spacing: .1em;
       padding: 7px 15px !important;
       margin: 0 5px;
       border-radius: 30px;
       transition-duration: 400ms;
       z-index: 2;
+      color: rgba($white, .6) !important;
+      
 
       &:hover {
-        color: $primary !important;
+        color: $white !important;
       }
 
       &:before {
