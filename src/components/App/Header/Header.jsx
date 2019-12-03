@@ -19,48 +19,46 @@ const Header = () => (
   <div>
     <Navbar color="white" light expand="md">
         <div className="container">
-          <NavbarBrand>
-              <Link to="/">
-                  <img src={Logo} alt=""/>
-              </Link>
+          <NavbarBrand tag={Link} to="/">
+            <img src={Logo} alt=""/>
           </NavbarBrand>
           <Collapse navbar>
-              <Nav className="mx-auto" navbar>
-                  <NavItem>
+              <Nav className="mx-auto menu" navbar>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/atrakcje">Atrakcje</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/cennik">Cennik</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/karnet">Karnet</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="menu__item">
                       <NavLink exact to="/o-nas">O nas</NavLink>
                   </NavItem>
               </Nav>
-              <Nav navbar>
-                  <NavItem>
+              <Nav navbar className="social-menu">
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'google']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'instagram']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'youtube']} />
                       </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="social-menu__item">
                       <NavLink to="#">
                           <FontAwesomeIcon icon={['fab', 'tripadvisor']} />
                       </NavLink>

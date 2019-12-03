@@ -1,0 +1,42 @@
+.menu {
+  &__item {
+    a {
+      position: relative;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: 600;
+      letter-spacing: .07em;
+      padding: 7px 15px !important;
+      margin: 0 5px;
+      border-radius: 30px;
+      transition-duration: 400ms;
+      z-index: 2;
+
+      &:hover {
+        color: $primary !important;
+      }
+
+      &:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        z-index: -1;
+        transform: translateY(10px) scaleX(.8);
+        transition-duration: 400ms;
+      }
+    
+      &.active {
+        color: $white !important;
+
+        &:before {
+          background-color: $primary;
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}
