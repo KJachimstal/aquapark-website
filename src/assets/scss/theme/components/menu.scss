@@ -3,8 +3,8 @@
     a {
       position: relative;
       text-transform: uppercase;
-      font-size: 0.9em;
-      font-weight: 400;
+      font-size: 0.85em;
+      font-weight: 500;
       letter-spacing: .1em;
       padding: 7px 15px !important;
       margin: 0 5px;
@@ -12,7 +12,6 @@
       transition-duration: 400ms;
       z-index: 2;
       color: rgba($white, .6) !important;
-      
 
       &:hover {
         color: $white !important;
@@ -27,18 +26,46 @@
         height: 100%;
         border-radius: 30px;
         z-index: -1;
-        transform: translateY(10px) scaleX(.8);
+        transform: translateX(-2px);
         transition-duration: 400ms;
       }
     
       &.active {
-        color: $white !important;
+        animation-name: slide;
+        animation-duration: 400ms;
+        animation-timing-function: linear;
+        color: $primary !important;
 
         &:before {
-          background-color: $primary;
+          background-color: $white;
           transform: translateY(0);
         }
       }
     }
+
+    &--highlight {
+      a {
+        color: $white !important;
+
+        &:before {
+          background-color: rgba($primary, .4);
+          transform: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-2px) perspective(200px) rotateY(15deg);
+  }
+
+  40% {
+    transform: translateX(2px) perspective(200px) rotateY(-15deg);
+  }
+
+  to {
+    transform: 0;
   }
 }

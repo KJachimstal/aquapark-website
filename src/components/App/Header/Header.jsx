@@ -34,9 +34,9 @@ const Header = () => (
               Karnet
             </NavLink>
           </NavItem>
-          <NavItem className="menu__item">
+          <NavItem className="menu__item menu__item--highlight">
             <NavLink exact to="/o-nas">
-              O nas
+              Bilety
             </NavLink>
           </NavItem>
         </Nav>
