@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeBackground from '../../assets/images/Baltic-Park-Molo-Aquapark.jpg';
+import HomeBackground from '../../assets/images/hero-home.jpg';
 // import HomeBackground from '../../assets/images/home-background.png';
 
 const Home = () => (
