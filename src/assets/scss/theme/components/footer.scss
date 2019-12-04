@@ -1,7 +1,32 @@
 .footer {
-  background-color: $primary;
+  background-color: rgb(10, 15, 30);
   position: absolute;
   bottom: 0;
   width: 100%;
   height: $footer-height;
+  color: rgba($white, .6);
+
+  &__logo {
+    opacity: .8;
+  }
+  &__container,
+  &__columns {
+    position: relative;
+    height: 100%;
+  }
+
+  &__container {
+    padding: 20px 0;
+  }
+
+  &__columns {
+    align-items: center;
+  }
+
+  &__address {
+    font-weight: 300;
+    font-size: .9em;
+    letter-spacing: 0.05em;
+    padding: 5px 15px;
+  }
 }
