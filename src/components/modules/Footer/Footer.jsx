@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
+import NavLink from '../NavLink';
 
 import Logo from '../../../assets/images/logo.png';
 
@@ -23,13 +24,13 @@ const Footer = () => (
         <div className="col-4">
           <Nav vertical>
             <NavItem>
-              <NavLink href="#">Link</NavLink>
+              <NavLink to="/atrakcje">Link</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Link</NavLink>
+              <NavLink to="/">Link</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Another Link</NavLink>
+              <NavLink to="/">Another Link</NavLink>
             </NavItem>
           </Nav>
         </div>
