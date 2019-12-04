@@ -7,7 +7,11 @@
   color: rgba($white, .6);
 
   &__logo {
-    opacity: .8;
+    opacity: .6;
+
+    img {
+      max-width: 170px;
+    }
   }
   &__container,
   &__columns {
@@ -28,5 +32,48 @@
     font-size: .9em;
     letter-spacing: 0.05em;
     padding: 5px 15px;
+  }
+}
+
+.footer-menu {
+  &__header {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba($white, .3);
+    letter-spacing: 0.1em;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-size: .9em;
+  }
+
+  .nav-item {
+    .nav-link {
+      padding: 2px 5px;
+      color: rgba($white, .6);
+      transition-duration: 400ms;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.footer-openings {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9em;
+  }
+
+  &__hour {
+    letter-spacing: .05em;
+    color: rgba($white, .5);
+    font-weight: 300;
+  }
+
+  &__separator {
+    margin: 0 8px;
+    color: rgba($white, .4);
   }
 }
