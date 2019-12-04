@@ -2,3 +2,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./variables";
 @import "./components";
+
+body, html {
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+  padding-bottom: $footer-height + 50px;
+}

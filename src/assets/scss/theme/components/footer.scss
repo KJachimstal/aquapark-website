@@ -1,3 +1,7 @@
 .footer {
-  
+  background-color: $primary;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
 }
