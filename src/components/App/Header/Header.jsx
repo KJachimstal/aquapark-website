@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import NavLink from './NavLink/NavLink';
+import NavLink from '../../modules/NavLink';
 import Logo from '../../../assets/images/logo.png';
 
 library.add(fab);
