@@ -3,7 +3,7 @@ import React, {
 } from 'react';
 import pricingReducer from '../reducers/pricing';
 
-const initialState = { type: 'regular' };
+const initialState = { type: 'regular', name: 'normalny' };
 
 export const PricingContext = createContext();
 
