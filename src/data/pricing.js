@@ -5,6 +5,6 @@ export default [
       discount: 39,
       familly: 100,
     },
-    name: 'Cały dzień',
+    title: 'Cały dzień',
   },
 ];

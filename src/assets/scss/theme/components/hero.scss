@@ -1,7 +1,7 @@
 .hero {
   $parent: &;
 
-  height: 70vmin;
+  height: $hero-height;
   background-size: cover;
   position: relative;
   background-position: center;
