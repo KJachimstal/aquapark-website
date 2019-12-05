@@ -1,0 +1,10 @@
+export default (state, action) => {
+  switch (action.type) {
+    case 'change_type':
+      return {
+        type: action.type,
+      };
+    default:
+      return state;
+  }
+};
