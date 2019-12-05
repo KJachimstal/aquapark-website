@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import HomeBackground from '../../assets/images/hero-home.jpg';
-import SwimmingSchoolImage from '../../assets/images/home/swimming-school.jpg';
-import MobilePaymentImage from '../../assets/images/home/mobile-payment.jpg';
-import SwimmingPool from '../../assets/images/home/swimming-pool.jpg';
+import HomeBackground from '../../../assets/images/hero-home.jpg';
+import SwimmingSchoolImage from '../../../assets/images/home/swimming-school.jpg';
+import MobilePaymentImage from '../../../assets/images/home/mobile-payment.jpg';
+import SwimmingPool from '../../../assets/images/home/swimming-pool.jpg';
 // import HomeBackground from '../../assets/images/home-background.png';
 
 const Home = () => (
