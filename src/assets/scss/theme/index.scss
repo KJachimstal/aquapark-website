@@ -3,11 +3,11 @@
 @import "./variables";
 @import "./components";
 
-body, html {
-  min-height: 100vh;
+body, html{
+  min-height: 100%;
+  position: relative;
 }
 
 body {
-  position: relative;
-  padding-bottom: $footer-height + 50px;
+  padding-bottom: $footer-height;
 }

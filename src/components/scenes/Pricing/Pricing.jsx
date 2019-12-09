@@ -10,14 +10,18 @@ import PricingItem from './PricingItem/PricingItem';
 
 const Pricing = () => (
   <PricingProvider>
-    <Hero image={PricingBackground} />
-    <div className="pricing">
-      <PricingButtons />
-      <div className="pricing__container container">
-        <div className="row">
-          {pricing.map(item => (
-            <PricingItem key={item.title} {...item} />
-          ))}
+    <div className="pricing-page">
+      <Hero image={PricingBackground}>
+        <div className="pricing-page__gradient"></div>
+      </Hero>
+      <div className="pricing">
+        <PricingButtons />
+        <div className="pricing__container container">
+          <div className="row">
+            {pricing.map(item => (
+              <PricingItem key={item.title} {...item} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -31,12 +31,4 @@ export default [
     },
     title: '6h',
   },
-  {
-    price: {
-      regular: 19,
-      discount: 9,
-      family: 25,
-    },
-    title: '24h',
-  },
 ];
