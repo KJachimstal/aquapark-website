@@ -24,6 +24,18 @@ const Pricing = () => (
           </div>
         </div>
       </div>
+      <div className="pricing-page__content container">
+        <h1>Regulamin:</h1>
+        <div className="pricing-page__content__regulations">
+          <li>Opiekunowi osoby niepełnosprawnej przysługuje darmowe wejście</li>
+          <li>Bilet ulgowy przysługuje tylko osobom do 18 roku życia oraz seniorom</li>
+          <li>Wstęp do Saunarium wyłącznie dla osób powyżej 18 roku życia</li>
+          <li>Wstęp do Siłowni i Fitness do 18 roku życia tylko pod opieką osoby pełnoletniej</li>
+          <li>Wstęp do Basenów Rekreacyjnych od 12 roku życia tylko pod opieką osoby dorosłej</li>
+          <li>W naszych kasach honorujemy karty płatnicze: VISA, VISA Electron, V PAY</li>
+          <li>Karnet imienny ważny jest za okazaniem aktualnego dokumentu ze zdjęciem</li>
+        </div>
+      </div>
     </div>
   </PricingProvider>
 );

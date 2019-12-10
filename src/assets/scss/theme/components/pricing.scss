@@ -9,6 +9,16 @@
     height: 150px;
     background: linear-gradient(0deg, rgba(19,33,79,1) 0%, rgba(19,33,79,0) 100%);
   }
+
+  &__content {
+    margin-top: 40px;
+    color: $white;
+
+    &__regulations {
+      padding: 15px;
+      margin: 0 15px;
+    }
+  }
 }
 
 .pricing {
@@ -69,5 +79,4 @@
       }
     }
   }
-
 }
