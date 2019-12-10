@@ -9,6 +9,14 @@ export default [
   },
   {
     price: {
+      regular: 39,
+      discount: 29,
+      family: 70,
+    },
+    title: '6h',
+  },
+  {
+    price: {
       regular: 29,
       discount: 19,
       family: 50,
@@ -22,13 +30,5 @@ export default [
       family: 25,
     },
     title: '1h',
-  },
-  {
-    price: {
-      regular: 19,
-      discount: 9,
-      family: 25,
-    },
-    title: '6h',
   },
 ];
