@@ -5,6 +5,7 @@ import NotFound from '../../scenes/NotFound';
 import Header from '../../modules/Header';
 import Footer from '../../modules/Footer';
 import Pricing from '../../scenes/Pricing';
+import Attractions from '../../scenes/Attractions/Attractions';
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/cennik" component={Pricing} />
+      <Route exact path="/atrakcje" component={Attractions} />
       <Route component={NotFound} />
     </Switch>
     <Footer />
