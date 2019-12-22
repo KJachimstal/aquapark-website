@@ -5,7 +5,7 @@ import NotFound from '../../scenes/NotFound';
 import Header from '../../modules/Header';
 import Footer from '../../modules/Footer';
 import Pricing from '../../scenes/Pricing';
-import Attractions from '../../scenes/Attractions/Attractions';
+import Attractions from '../../scenes/Attractions';
 
 const App = () => (
   <Router>
