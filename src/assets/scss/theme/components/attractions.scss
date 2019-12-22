@@ -1,18 +1,35 @@
 .attractions {
-  &__item {
+  $parent: &;
+  padding: $spacer 0;
 
+  &__item {
+    padding: $spacer;
   }
 
   &__image {
-    width: 300px;
-    height: 150px;
-
-    img {
-      width: 100%;
-    }
+    width: 100%;
+    padding-top: 45%;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: $spacer;
   }
 
   &__info {
+    @extend .px-4, .py-2;
 
+    &-header {
+      @extend .h3;
+      color: $primary;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .attractions {
+    &__image {
+      padding-top: 15%;
+      margin-bottom: 0;
+    }
+  
   }
 }

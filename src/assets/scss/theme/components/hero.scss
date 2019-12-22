@@ -1,3 +1,5 @@
+$hero-padding: 150px;
+
 .hero {
   $parent: &;
 
@@ -6,6 +8,10 @@
   position: relative;
   background-position: center;
   color: rgba($white, .8);
+
+  &--small {
+    height: $hero-height / 2;
+  }
 
   &__content {
     position: absolute;
@@ -16,10 +22,10 @@
     left: 0;
     background-color: rgba($hero-background-color, .7);
     box-sizing: border-box;
-    padding-top: 150px;
+    padding-top: $hero-padding;
 
     &--header {
-      @extend .d-flex, .align-items-center;
+      @extend .d-flex, .align-items-center, .text-white;
       padding-top: 0;
     }
   }
