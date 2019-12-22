@@ -17,6 +17,11 @@
     background-color: rgba($hero-background-color, .7);
     box-sizing: border-box;
     padding-top: 150px;
+
+    &--header {
+      @extend .d-flex, .align-items-center;
+      padding-top: 0;
+    }
   }
 
   &__container {
