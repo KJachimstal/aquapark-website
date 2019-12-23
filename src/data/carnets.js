@@ -11,7 +11,7 @@ export default [
       'basen rekreacyjny', 'sauna',
     ],
     expiration: '1 miesiąc',
-    duration: '2h',
+    duration: '2h dziennie',
   },
   {
     name: 's2',
@@ -21,7 +21,7 @@ export default [
       'basen rekreacyjny', 'sauna', 'siłownia', 'fitness',
     ],
     expiration: '1 miesiąc',
-    duration: '4h',
+    duration: '3h dziennie',
   },
   {
     name: 'vip',

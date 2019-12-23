@@ -12,21 +12,42 @@ import carnets from '../../../data/carnets.js';
 
 const Carnet = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentCarnet, setCurrentCarnet] = useState(carnets[0]);
 
   const toggle = () => {
     setIsModalOpen(!isModalOpen);
   };
 
-  const openCarnet = (id) => {
+  const openCarnet = (index) => {
+    setCurrentCarnet(carnets[index]);
     setIsModalOpen(true);
   };
 
   return (
     <>
       <Modal isOpen={isModalOpen} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+      <ModalHeader toggle={toggle}>Karnet {currentCarnet.name.toUpperCase()}</ModalHeader>
         <ModalBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="col">Cena</th>
+                <td>{currentCarnet.price} PLN</td>
+              </tr>
+              <tr>
+                <th scope="col">Dostępne atrakcje</th>
+                <td>{currentCarnet.attractions.join(', ')}</td>
+              </tr>
+              <tr>
+                <th scope="col">Czas ważności</th>
+                <td>{currentCarnet.expiration}</td>
+              </tr>
+              <tr>
+                <th scope="col">Czas trwania</th>
+                <td>{currentCarnet.duration}</td>
+              </tr>
+            </tbody>
+          </table>
         </ModalBody>
       </Modal>
       <div className="hero hero--small" style={{ backgroundImage: `url(${CarnetBackground})` }}>
