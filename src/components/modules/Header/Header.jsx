@@ -42,7 +42,7 @@ const Header = () => {
               </NavLink>
             </NavItem>
             <NavItem className="menu__item menu__item--highlight">
-              <NavLink exact to="/o-nas">
+              <NavLink exact to="/bilety">
                 Bilety
               </NavLink>
             </NavItem>

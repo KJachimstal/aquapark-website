@@ -7,6 +7,7 @@ import Footer from '../../modules/Footer';
 import Attractions from '../../scenes/Attractions';
 import Pricing from '../../scenes/Pricing';
 import Carnet from '../../scenes/Carnet';
+import Tickets from '../../scenes/Tickets';
 
 const App = () => (
   <Router>
@@ -16,6 +17,7 @@ const App = () => (
       <Route exact path="/atrakcje" component={Attractions} />
       <Route exact path="/cennik" component={Pricing} />
       <Route exact path="/karnet" component={Carnet} />
+      <Route exact path="/bilety" component={Tickets} />
       <Route component={NotFound} />
     </Switch>
     <Footer />
