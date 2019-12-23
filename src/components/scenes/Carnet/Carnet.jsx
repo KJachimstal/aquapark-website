@@ -26,7 +26,7 @@ const Carnet = () => {
       <Modal isOpen={isModalOpen} toggle={toggle}>
       <ModalHeader toggle={toggle}>Karnet {currentCarnet.name.toUpperCase()}</ModalHeader>
         <ModalBody>
-          <table className="table table-bordered">
+          <table className="table table-borderless">
             <tbody>
               <tr>
                 <th scope="col">Cena</th>
