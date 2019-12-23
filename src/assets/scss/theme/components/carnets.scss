@@ -1,0 +1,29 @@
+.carnets {
+  &__item {
+    width: 100%;
+    padding-top: 100%;
+    background-size: contain;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  &__price {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    background-color: $white;
+    font-size: 1.2em;
+  }
+
+  &__price-value {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+
+  &__price-currency {
+    color: rgba($black, .5);
+  }
+}
