@@ -13,10 +13,10 @@ import Logo from '../../../assets/images/logo.png';
 library.add(fab);
 
 const Header = () => {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
   useScrollPosition(({ currPos }) => {
-    setScrolled(currPos.y < 0)
-  })
+    setScrolled(currPos.y < 0);
+  });
 
   return (
     <Navbar dark expand="md" className={`header${scrolled ? ' header--scrolled' : ''}`}>
@@ -77,7 +77,7 @@ const Header = () => {
         </Collapse>
       </div>
     </Navbar>
-  )
+  );
 };
 
 export default Header;
