@@ -6,9 +6,7 @@ import {
 } from 'reactstrap';
 
 import CarnetBackground from '../../../assets/images/hero-carnet.jpg';
-
-
-import carnets from '../../../data/carnets.js';
+import carnets from '../../../data/carnets';
 
 const Carnet = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
