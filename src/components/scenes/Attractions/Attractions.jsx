@@ -37,8 +37,9 @@ const Attractions = () => (
               <div className="attractions__info col-12 col-md-8">
                 <header className="attractions__info-header">Zjeżdzalnie dla dzieci</header>
                 <p className="attractions__info-text">
-                  Podgrzewana woda, liczne gejzery i kolorowe dekoracje to idealne środowisko dla naszych najmłodszych gości. 
-                  Łagodna zjeżdżalnia znajdująca się na terenie brodziku.
+                  Podgrzewana woda, liczne gejzery i kolorowe dekoracje to idealne środowisko
+                  dla naszych najmłodszych gości. Łagodna zjeżdżalnia znajdująca się na
+                  terenie brodziku.
                 </p>
               </div>
             </div>
@@ -49,7 +50,8 @@ const Attractions = () => (
               <div className="attractions__info col-12 col-md-8">
                 <header className="attractions__info-header">Atrakcje dla dzieci</header>
                 <p className="attractions__info-text">
-                  Podgrzewana woda, liczne gejzery i kolorowe dekoracje to idealne środowisko dla naszych najmłodszych gości. 
+                  Podgrzewana woda, liczne gejzery i kolorowe dekoracje
+                  to idealne środowisko dla naszych najmłodszych gości.
                   Tuż obok znajduje się również półka z kolorowymi, piankowymi przedmiotami.
                 </p>
               </div>
@@ -61,8 +63,9 @@ const Attractions = () => (
               <div className="attractions__info col-12 col-md-8">
                 <header className="attractions__info-header">Baseny dla dorosłych i dzieci</header>
                 <p className="attractions__info-text">
-                  Basen pływacki to miejsce dla osób, które dobrą zabawę lubią połączyć ze sportem.
-                  Do dyspozycji naszych klientów są 3 tory o głębokości 1,8 do 2,0 m oraz 1 tor o głębokości 90 cm.
+                  Basen pływacki to miejsce dla osób, które dobrą zabawę
+                  lubią połączyć ze sportem. Do dyspozycji naszych klientów są
+                  3 tory o głębokości 1,8 do 2,0 m oraz 1 tor o głębokości 90 cm.
                 </p>
               </div>
             </div>
@@ -73,7 +76,8 @@ const Attractions = () => (
               <div className="attractions__info col-12 col-md-8">
                 <header className="attractions__info-header">Sauna</header>
                 <p className="attractions__info-text">
-                  Sauna fińska to pomieszczenie ze schodkowo ułożonymi, drewnianymi ławami, ogrzewane do temperatury 100°C.
+                  Sauna fińska to pomieszczenie ze schodkowo ułożonymi,
+                  drewnianymi ławami, ogrzewane do temperatury 100°C.
                   Korzystanie z niej jest doskonałą metodą na detoksykację organizmu.
                 </p>
               </div>
@@ -85,8 +89,9 @@ const Attractions = () => (
               <div className="attractions__info col-12 col-md-8">
                 <header className="attractions__info-header">Masaż wodny</header>
                 <p className="attractions__text">
-                  Bicze wodne korzystnie wpływają na skórę, usuwają zmęczenie oraz odprężają. 
-                  Przy tym oprawiają samopoczucie, dodają energii i pozwalają poczuć się świeżo i młodo.
+                  Bicze wodne korzystnie wpływają na skórę, usuwają zmęczenie
+                  oraz odprężają. Przy tym oprawiają samopoczucie, dodają energii
+                  i pozwalają poczuć się świeżo i młodo.
                 </p>
               </div>
             </div>
