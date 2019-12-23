@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import CarnetBackground from '../../../assets/images/hero-carnet.jpg';
 import ZoneOne from '../../../assets/images/carnet/s1.jpg';
@@ -31,6 +33,9 @@ const Carnet = () => (
               <div className="carnets__price-value">160</div>
               <div className="carnets__price-currency">PLN</div>
             </div>
+            <div className="carnets__preview">
+              <FontAwesomeIcon icon={faSearch} />
+            </div>
           </div>
         </div>
         <div className="col-12 col-md-4">
@@ -39,6 +44,9 @@ const Carnet = () => (
               <div className="carnets__price-value">200</div>
               <div className="carnets__price-currency">PLN</div>
             </div>
+            <div className="carnets__preview">
+              <FontAwesomeIcon icon={faSearch} />
+            </div>
           </div>
         </div>
         <div className="col-12 col-md-4">
@@ -46,6 +54,9 @@ const Carnet = () => (
             <div className="carnets__price">
               <div className="carnets__price-value">240</div>
               <div className="carnets__price-currency">PLN</div>
+            </div>
+            <div className="carnets__preview">
+              <FontAwesomeIcon icon={faSearch} />
             </div>
           </div>
         </div>
