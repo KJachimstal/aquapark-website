@@ -8,6 +8,12 @@ import PricingBackground from '../../../assets/images/hero-pricing.jpg';
 import pricing from '../../../data/pricing';
 import PricingItem from './PricingItem/PricingItem';
 
+// Images
+import PayU from '../../../assets/images/pay/payu.png';
+import MasterCard from '../../../assets/images/pay/mastercard.png';
+import Visa from '../../../assets/images/pay/visa.png';
+import Blik from '../../../assets/images/pay/blik.png';
+
 const Pricing = () => (
   <PricingProvider>
     <div className="pricing-page">
@@ -36,6 +42,22 @@ const Pricing = () => (
             <li>W naszych kasach honorujemy karty płatnicze: VISA, VISA Electron, V PAY</li>
             <li>Karnet imienny ważny jest za okazaniem aktualnego dokumentu ze zdjęciem</li>
           </ul>
+        </div>
+      </div>
+      <div className="container py-4" style={{ opacity: '.7' }}>
+        <div className="row align-items-center">
+          <div className="col text-center">
+            <img src={PayU} alt="PayU"/>
+          </div>
+          <div className="col text-center">
+            <img src={MasterCard} alt="MasterCard"/>
+          </div>
+          <div className="col text-center">
+            <img src={Visa} alt="Visa"/>
+          </div>
+          <div className="col text-center">
+            <img src={Blik} alt="Visa"/>
+          </div>
         </div>
       </div>
     </div>
