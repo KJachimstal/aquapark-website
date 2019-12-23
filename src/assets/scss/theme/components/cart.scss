@@ -1,0 +1,37 @@
+.cart {
+  padding: $spacer * 2 0;
+
+  &__item {
+    background-color: rgba($dark, .05);
+    margin: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  &__title {
+    font-weight: 500;
+    color: $primary;
+  }
+
+  &__price {
+    font-size: 1.2em;
+    font-weight: 600;
+
+    &-value {
+      margin-right: 5px;
+    }
+
+    &-currency {
+      color: rgba($black, .3);
+      font-size: .8em;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  &__separator:not(:last-child) {
+    height: 2px;
+    background-color: rgba($black, .1);
+    margin: 30px 20px;
+  }
+}
