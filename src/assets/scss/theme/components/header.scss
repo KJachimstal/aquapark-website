@@ -9,4 +9,9 @@
   &--scrolled {
     background: $hero-background-color;
   }
+
+  &__spacer {
+    height: 92px;
+    background-color: $hero-background-color;
+  }
 }

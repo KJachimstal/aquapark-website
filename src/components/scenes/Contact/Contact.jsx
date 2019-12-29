@@ -25,7 +25,7 @@ const Contact = () => (
             <Marker location="51.747847,19.454375" color="blue" />
           </StaticGoogleMap>
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 mt-4 mt-lg-0">
           <h2>Łódzki Park Wodny</h2>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">

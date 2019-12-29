@@ -19,64 +19,67 @@ const Header = () => {
   });
 
   return (
-    <Navbar dark expand="md" className={`header${scrolled ? ' header--scrolled' : ''}`}>
-      <div className="container">
-        <NavbarBrand tag={Link} to="/">
-          <img src={Logo} alt="" />
-        </NavbarBrand>
-        <Collapse navbar>
-          <Nav className="mx-auto menu" navbar>
-            <NavItem className="menu__item">
-              <NavLink exact to="/cennik">
-                Cennik
-              </NavLink>
-            </NavItem>
-            <NavItem className="menu__item">
-              <NavLink exact to="/karnet">
-                Karnet
-              </NavLink>
-            </NavItem>
-            <NavItem className="menu__item menu__item--highlight">
-              <NavLink exact to="/bilety">
-                Bilety
-              </NavLink>
-            </NavItem>
-            <NavItem className="menu__item">
-              <NavLink exact to="/kontakt">
-                Kontakt
-              </NavLink>
-            </NavItem>
-          </Nav>
-          <Nav navbar className="social-menu">
-            <NavItem className="social-menu__item">
-              <NavLink to="#">
-                <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-              </NavLink>
-            </NavItem>
-            <NavItem className="social-menu__item">
-              <NavLink to="#">
-                <FontAwesomeIcon icon={['fab', 'google']} />
-              </NavLink>
-            </NavItem>
-            <NavItem className="social-menu__item">
-              <NavLink to="#">
-                <FontAwesomeIcon icon={['fab', 'instagram']} />
-              </NavLink>
-            </NavItem>
-            <NavItem className="social-menu__item">
-              <NavLink to="#">
-                <FontAwesomeIcon icon={['fab', 'youtube']} />
-              </NavLink>
-            </NavItem>
-            <NavItem className="social-menu__item">
-              <NavLink to="#">
-                <FontAwesomeIcon icon={['fab', 'tripadvisor']} />
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </div>
-    </Navbar>
+    <>
+      <Navbar dark expand="md" className={`header${scrolled ? ' header--scrolled' : ''}`}>
+        <div className="container">
+          <NavbarBrand tag={Link} to="/">
+            <img src={Logo} alt="" />
+          </NavbarBrand>
+          <Collapse navbar>
+            <Nav className="mx-auto menu" navbar>
+              <NavItem className="menu__item">
+                <NavLink exact to="/cennik">
+                  Cennik
+                </NavLink>
+              </NavItem>
+              <NavItem className="menu__item">
+                <NavLink exact to="/karnet">
+                  Karnet
+                </NavLink>
+              </NavItem>
+              <NavItem className="menu__item menu__item--highlight">
+                <NavLink exact to="/bilety">
+                  Bilety
+                </NavLink>
+              </NavItem>
+              <NavItem className="menu__item">
+                <NavLink exact to="/kontakt">
+                  Kontakt
+                </NavLink>
+              </NavItem>
+            </Nav>
+            <Nav navbar className="social-menu">
+              <NavItem className="social-menu__item">
+                <NavLink to="#">
+                  <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                </NavLink>
+              </NavItem>
+              <NavItem className="social-menu__item">
+                <NavLink to="#">
+                  <FontAwesomeIcon icon={['fab', 'google']} />
+                </NavLink>
+              </NavItem>
+              <NavItem className="social-menu__item">
+                <NavLink to="#">
+                  <FontAwesomeIcon icon={['fab', 'instagram']} />
+                </NavLink>
+              </NavItem>
+              <NavItem className="social-menu__item">
+                <NavLink to="#">
+                  <FontAwesomeIcon icon={['fab', 'youtube']} />
+                </NavLink>
+              </NavItem>
+              <NavItem className="social-menu__item">
+                <NavLink to="#">
+                  <FontAwesomeIcon icon={['fab', 'tripadvisor']} />
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </div>
+      </Navbar>
+      <div className="header__spacer d-md-none"></div>
+    </>
   );
 };
 
