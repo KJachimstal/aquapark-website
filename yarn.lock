@@ -8645,6 +8645,13 @@ react-popper@^1.3.3:
     typed-styles "^0.0.7"
     warning "^4.0.2"
 
+react-promise@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-promise/-/react-promise-2.1.0.tgz#8a8d590b4ec9dc8fca428859bafe65c6f04e151e"
+  integrity sha512-j9B97+RWlC/OS36asazn1mn24F+xfi5x6PP6b/vq1TyKZ9CfI8mFJGIvqEJCngO8orC2+OaUM4ZlvQiEsY19bQ==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-router-dom@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.1.2.tgz#06701b834352f44d37fbb6311f870f84c76b9c18"
@@ -8735,6 +8742,15 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
+react-static-google-map@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/react-static-google-map/-/react-static-google-map-0.5.4.tgz#37e956cca1479a2989bdb9f6f5f0fc01c37dc60c"
+  integrity sha512-0Yj3QbsGTp1nyPgfsYvf40PgxAyv6H6CH3HWN3h64au3ClLbPC3xjnWW5MSCbLmv8DLX0EkbqrR3jyS3Bg2iuA==
+  dependencies:
+    invariant "^2.2.2"
+    react ">=0.14.x"
+    react-promise "^2.0.0"
+
 react-transition-group@^2.3.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
@@ -8745,7 +8761,7 @@ react-transition-group@^2.3.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.12.0:
+react@>=0.14.x, react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
