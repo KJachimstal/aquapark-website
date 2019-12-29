@@ -27,11 +27,6 @@ const Header = () => {
         <Collapse navbar>
           <Nav className="mx-auto menu" navbar>
             <NavItem className="menu__item">
-              <NavLink exact to="/atrakcje">
-                Atrakcje
-              </NavLink>
-            </NavItem>
-            <NavItem className="menu__item">
               <NavLink exact to="/cennik">
                 Cennik
               </NavLink>
@@ -44,6 +39,11 @@ const Header = () => {
             <NavItem className="menu__item menu__item--highlight">
               <NavLink exact to="/bilety">
                 Bilety
+              </NavLink>
+            </NavItem>
+            <NavItem className="menu__item">
+              <NavLink exact to="/kontakt">
+                Kontakt
               </NavLink>
             </NavItem>
           </Nav>

@@ -12,7 +12,7 @@ const Attractions = () => (
     <div className="hero hero--small" style={{ backgroundImage: `url(${AttractionsBackground})` }}>
       <div className="hero__content hero__content--header">
         <div className="container">
-          <div className="display-4">Atrakcje</div>
+          <div className="display-4">Kontakt</div>
         </div>
       </div>
     </div>
