@@ -9,6 +9,13 @@ $hero-padding: 150px;
   background-position: center;
   color: rgba($white, .8);
 
+  @include media-breakpoint-down(md) {
+    .display-4 {
+      padding: 0 20px;
+      font-size: 2.8rem;
+    }
+  }
+
   &--small {
     height: $hero-height / 2;
   }
