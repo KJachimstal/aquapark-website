@@ -15,10 +15,10 @@ const PricingButtons = () => {
   return (
     <div className="container">
       <div className="row pb-4">
-        <div className="col d-flex align-items-center">
+        <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
           <h1 className="text-white">Ceny biletów</h1>
         </div>
-        <div className="col d-flex justify-content-end align-items-center pb-2">
+        <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center pb-2">
           <ButtonGroup className="pricing__buttons">
             <Button
               onClick={() => onButtonClick('regular', 'normalny')}
