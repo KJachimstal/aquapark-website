@@ -12,7 +12,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="container footer__container">
       <div className="row footer__columns">
-        <div className="col-3">
+        <div className="col-12 col-md-6 col-lg-3">
           <div className="footer__logo">
             <Link to="/">
               <img src={Logo} alt="Aquapark" />
@@ -24,7 +24,7 @@ const Footer = () => (
             <div>00-00 Litzmannstadt</div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-6 col-lg-3 p-4">
           <Nav vertical className="footer-menu">
             <NavItem className="footer-menu__header">Na skróty</NavItem>
             <NavItem>
@@ -41,7 +41,7 @@ const Footer = () => (
             </NavItem>
           </Nav>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-6 col-lg-3 p-4">
           <Nav vertical className="footer-menu">
             <NavItem className="footer-menu__header">Polecamy</NavItem>
             <NavItem>
@@ -58,8 +58,8 @@ const Footer = () => (
             </NavItem>
           </Nav>
         </div>
-        <div className="col-3">
-          <div className="footer-openings">
+        <div className="col-12 col-md-6 col-lg-3 p-4">
+          <div className="footer-openings p-2">
             {openings.map(opening => <Opening key={opening.day} {...opening} />)}
           </div>
         </div>

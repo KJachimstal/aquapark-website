@@ -78,3 +78,10 @@
     color: rgba($white, .4);
   }
 }
+
+@include media-breakpoint-down(md) {
+  .footer {
+    position: relative;
+    height: auto;
+  }
+}

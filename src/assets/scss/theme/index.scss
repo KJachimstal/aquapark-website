@@ -11,3 +11,9 @@ body, html {
 body {
   padding-bottom: $footer-height;
 }
+
+@include media-breakpoint-down(md) {
+  body {
+    padding: 0;
+  }
+}
