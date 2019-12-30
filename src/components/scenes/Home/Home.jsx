@@ -19,18 +19,18 @@ const Home = () => (
       <div className="hero__content">
         <div className="container hero__container">
           <div className="row align-items-stretch">
-            <div className="col-7 hero__column">
+            <div className="col-12 col-md-7 hero__column">
               <Link to="/bilety" className="hero__item hero__item--main">
                 <div className="hero__image">
                   <img src={SwimmingPool} alt=""/>
                 </div>
                 <header className="hero__header hero__header--big">Ferie w Aquaparku</header>
-                <div className="hero__body">
+                <div className="hero__body d-none d-md-block">
                   Oszczędzaj czas dzięki możliwości zakupu biletu online
                 </div>
               </Link>
             </div>
-            <div className="col-5 hero__column">
+            <div className="col-5 hero__column d-none d-md-flex">
               <Link to="/bilety" className="hero__item hero__item--addition">
                 <div className="hero__image">
                   <img src={MobilePaymentImage} alt=""/>
