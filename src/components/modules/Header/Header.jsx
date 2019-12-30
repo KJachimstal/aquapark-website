@@ -21,7 +21,10 @@ const Header = () => {
   });
 
   const toggle = () => setIsOpen(!isOpen);
-  const hide = () => setIsOpen(false);
+  const hide = () => {
+    setIsOpen(false);
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
