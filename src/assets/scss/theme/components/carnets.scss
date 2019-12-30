@@ -46,6 +46,12 @@
     transition-duration: 500ms;
   }
 
+  @include media-breakpoint-down(md) {
+    &__item {
+      margin-bottom: $spacer;    
+    }
+  }
+
   &__item:hover {
     .carnets__preview {
       opacity: 1;
