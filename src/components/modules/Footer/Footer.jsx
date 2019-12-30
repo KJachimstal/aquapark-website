@@ -9,7 +9,7 @@ import openings from '../../../data/openings';
 import Opening from './Opening/Opening';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer p-3 p-md-0">
     <div className="container footer__container">
       <div className="row footer__columns">
         <div className="col-12 col-md-6 col-lg-3">
@@ -21,7 +21,7 @@ const Footer = () => (
           <div className="footer__address">
             <div>Łódzki Park Wodny</div>
             <div>ul. Politechniki 69</div>
-            <div>00-00 Litzmannstadt</div>
+            <div>00-00 Łódź</div>
           </div>
         </div>
         <div className="col-12 col-md-6 col-lg-3 p-4">

@@ -3,7 +3,6 @@
   width: 100%;
   z-index: 9999;
   background: linear-gradient(180deg, $hero-background-color 0%, rgba(0,212,255,0) 100%);
-  padding-bottom: 10px;
   transition-duration: 300ms;
 
   &--scrolled {
@@ -11,7 +10,14 @@
   }
 
   &__spacer {
-    height: 92px;
+    height: 74px;
     background-color: $hero-background-color;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .collapse, .collapsing {
+    background-color: $primary;
+    padding: 20px 10px;
   }
 }

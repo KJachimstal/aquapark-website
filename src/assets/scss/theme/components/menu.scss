@@ -7,7 +7,7 @@
       font-weight: 500;
       letter-spacing: .1em;
       padding: 7px 15px !important;
-      margin: 0 10px;
+      margin: 3px 10px;
       border-radius: 30px;
       transition-duration: 400ms;
       z-index: 2;
@@ -33,9 +33,20 @@
         color: $primary !important;
 
         &:before {
-          animation: slide linear 400ms;
           background-color: $white;
         }
+
+        @include media-breakpoint-up(md) {
+          &:before {
+            animation: slide linear 400ms;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      a {
+        margin: 0 10px;
       }
     }
 
