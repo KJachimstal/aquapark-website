@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "@n8tb1t/use-scroll-position": "^1.0.43",
     "bootstrap": "^4.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
